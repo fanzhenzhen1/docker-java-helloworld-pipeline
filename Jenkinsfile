@@ -1,5 +1,9 @@
 pipeline {
-   agent any
+   agent {
+      docker {
+         image 'liumiaocn/maven:3.6.1'  
+      }
+   }
 
    environment {
      // You must set the following environment variables
