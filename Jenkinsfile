@@ -3,7 +3,7 @@ pipeline {
 
    environment {
      // You must set the following environment variables
-     ORGANIZATION_NAME = "fzz-org"
+     ORGANIZATION_NAME = "fanzhenzhen1"
      // YOUR_DOCKERHUB_USERNAME (it doesn't matter if you don't have one)
      
      SERVICE_NAME = "docker-java-helloworld-pipeline"
